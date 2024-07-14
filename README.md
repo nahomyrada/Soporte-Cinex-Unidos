@@ -7,11 +7,6 @@ Aquí se encuentra una carpeta con todo el proyecto, para abrir solo la parte de
 
 Instrucciones para el proyecto completo:
 
-# Proyecto-Cinex-Unidos
-Esta es la entrega del proyecto completo con la integración de los talleres
-
-Integrantes: -Anthonny Baladi -Nahomy Rada -Diana Rodríguez
-
 Extras:
 -Cambio de los colores según la preferencia del usuario: arriba de cada pantalla hay un boton que dice "Menu"
 donde puedes seleccionar entre "Modo oscuro" y "Modo light".
