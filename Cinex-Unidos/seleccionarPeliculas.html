@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <title>Cinex Unidos</title>
+</head>
+<body>
+    <header class="encabezado">
+        <a href="inicio.html">
+            <img src="https://cinexunidos-production.up.railway.app/assets/images/cinex-unidos.png" class="logo">
+        </a>        <div class="dropdown">
+            <button class="dropbtn">Menú</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="toggleDarkMode('light')">Modo Claro</a>
+              <a href="#" onclick="toggleDarkMode('dark')">Modo Oscuro</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav class="barraHorizontal">
+            <ul>
+                <li> 
+                    Caracas
+                </li>
+                <li id="fecha"> Fecha de hoy
+                </li>
+            </ul>
+        </nav>
+        <section id="principal">
+            <h1 id="textoSeleccionaCiudad">Cines en tu Ciudad</h1>
+            <div>
+                <!-- <div class="controls prev">&#8249;</div> -->
+                <ol id="listaCines" class="carrusel">
+                </ol>
+                <div class="controls prev">&#8249;</div>
+                <div class="controls next">&#8250;</div>
+            </div>
+        </section>
+        <section id="peliculasYEstrenos">
+            <section id="seccionPeliculas">
+                <h1 id="cineElegido"></h1>
+                <ul id="listaPeliculas">
+                </ul>
+            </section>
+            <section class="estreno-section">
+                <h1>Estrenos</h1>
+                <div id="carruselEstreno">
+                    <div id="carruselEstreno--inner">
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>Copyright © 2024 Programacion Orientada a la Web | Todos los derechos reservados</p>
+            <p>Sitio web especializado en programación</p>
+            <p>Nahomy, Diana y Anthonny</p>
+            <p>UCAB</p>
+        </div>
+    </footer>
+    <script src="./js/toggleMode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/ControladorPeliculas.js"></script>
+</body>
+</html>
