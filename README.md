@@ -3,7 +3,7 @@ Esta en la entrega donde realizamos el soporte para el proyecto de Cinex Unidos
 Integrantes: -Anthonny Baladi -Nahomy Rada -Diana Rodríguez
 
 Instrucciones:
-Aquí se encuentra una carpeta con todo el proyecto, para abrir solo la parte del soporte hay dos archivos, uno "soporte_tecnico.html" para el usuario y "soporte.html" para el técnico, el cual tiene un nombre predeterminado de Soporte Técnico. También se puede ejecutar el proyecto desde la página de "inicio.html" y la parte de soporte aparece en la selección de butacas en la parte inferior.
+Aquí se encuentra una carpeta con todo el proyecto, para abrir solo la parte del soporte hay dos archivos, uno "soporte_tecnico.html" para el usuario y "soporte.html" para el técnico, el cual tiene un nombre predeterminado de Soporte Técnico. También se puede ejecutar el proyecto desde la página de "inicio.html" y la parte de soporte aparece en la selección de butacas en la parte inferior. Para cumplir ambos roles, despues de abrir soporte_tecnico.html segun las instrucciones que se encuentran aquí abajo en "Pantalla 4" es necesario abrir por separado "soporte.html" donde se cumple el rol del técnico.
 
 Instrucciones para el proyecto completo:
 
